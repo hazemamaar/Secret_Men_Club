@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="com.example.hassanwahdan.SplashScreen"
+        android:label="SplashScreen" >
+        <action
+            android:id="@+id/action_splashScreen_to_logIn"
+            app:destination="@id/logIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/logIn"
+        android:name="com.example.hassanwahdan.LogIn"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logIn_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_logIn_to_choice"
+            app:destination="@id/choice" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.hassanwahdan.SignUp"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUp_to_logIn"
+            app:destination="@id/logIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.example.hassanwahdan.HomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_homeScreen_to_QRCode"
+            app:destination="@id/QRCode" />
+    </fragment>
+    <fragment
+        android:id="@+id/choice"
+        android:name="com.example.hassanwahdan.Choice"
+        android:label="fragment_choice"
+        tools:layout="@layout/fragment_choice" >
+        <action
+            android:id="@+id/action_choice_to_homeScreen"
+            app:destination="@id/homeScreen" />
+        <action
+            android:id="@+id/action_choice_to_womenFrag"
+            app:destination="@id/womenFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/QRCode"
+        android:name="com.example.hassanwahdan.QRCode"
+        android:label="fragment_q_r_code"
+        tools:layout="@layout/fragment_q_r_code" >
+        <action
+            android:id="@+id/action_QRCode_to_homeScreen"
+            app:destination="@id/homeScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/womenFrag"
+        android:name="com.example.hassanwahdan.WomenFrag"
+        android:label="fragment_women"
+        tools:layout="@layout/fragment_women" >
+        <action
+            android:id="@+id/action_womenFrag_to_choice"
+            app:destination="@id/choice" />
+    </fragment>
+</navigation>

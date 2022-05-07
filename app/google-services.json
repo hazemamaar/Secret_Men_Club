@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633830558713",
+    "project_id": "secret-men-club",
+    "storage_bucket": "secret-men-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633830558713:android:23ac77c281e76d76ce4b28",
+        "android_client_info": {
+          "package_name": "com.example.hassanwahdan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633830558713-kuv577h0o1hkvrl6nidf641ih6brk760.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hassanwahdan",
+            "certificate_hash": "48fb64a8f71f6acedec664a7d4f37edb1763fcfb"
+          }
+        },
+        {
+          "client_id": "633830558713-gf6jehmm21ed0jhcjm22gqdf7oiebcm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmia1iFtvfqwKxnd3xBbHZRpROOHabsjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633830558713-gf6jehmm21ed0jhcjm22gqdf7oiebcm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
